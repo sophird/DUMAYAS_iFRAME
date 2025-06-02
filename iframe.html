@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Sample iFrame</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>MY iFRAME</h1>
+        <div class="main-content">
+            <div class="sidebar">
+                <div class="logo-block">
+                    <button class="sidebar-btn wikipedia" onclick="document.querySelector('iframe').src='https://en.wikipedia.org/'">Wikipedia</button>
+                </div>
+                <div class="logo-block">
+                    <button class="sidebar-btn popmart" onclick="document.querySelector('iframe').src='https://www.popmart.com/'">Popmart</button>
+                </div>
+                <div class="logo-block">
+                    <button class="sidebar-btn pepsi" onclick="document.querySelector('iframe').src='https://www.pepsi.com/en-us/'">Pepsi</button>
+                </div>
+            </div>
+            <div class="iframe-area">
+                <iframe src="https://www.pepsi.com/en-us/" title="Sample iFrame"></iframe>
+            </div>
+        </div>
+    </div>
+</body>
+</html> 
